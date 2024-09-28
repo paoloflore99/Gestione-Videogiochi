@@ -15,6 +15,7 @@ namespace Gestione_Videogiochi
         {
             using SqlConnection connection = new SqlConnection(CHIAVE) { };
             connection.Open();
+            
             connection.Close();
         }
     }
